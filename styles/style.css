@@ -90,7 +90,7 @@ text-decoration:none;
   /*header start*/
 
 
-header .search-from{
+.header .search-form{
    position: absolute;
    top: 115%;
    right: 7%;
@@ -103,24 +103,24 @@ header .search-from{
    box-shadow:0px 0px 25px 2px rgb(0 0 0 / 75%);
    transform: scaleY(0);
   }
-  header .search-from.active{
+  .header .search-form.active{
     transform: scaleY(1);
   }
 
-  header .search-from i{
+  .header .search-form i{
     cursor: pointer;
     font-size: 2.2rem;
     margin-right:1.5rem;
     color: var(--black-color);
   }
 
-  header .search-from input{
+  .header .search-form input{
     width: 100%;
   }
-header .logo img{
+.header .logo img{
     height:5rem;
   }
-header {
+.header {
     background-color: #fff;
     display:flex ;
     align-items: center;
@@ -133,18 +133,18 @@ header {
     top:0;
     z-index: 1000;
 }
-header .navbar a {
+.header .navbar a {
     margin: 0 1rem ;
     font-size: 1.4rem;
     color: var(--black-color);
     border-bottom: 0.1rem solid transparent;
 }
-header .navbar .active,
-header .navbar a:hover{
+.header .navbar .active,
+.header .navbar a:hover{
     border-color: var(--main-color);
     padding-bottom: 0.5rem;
 }
-header .buttons button{
+.header .buttons button{
     cursor: pointer;
     font-size: 1.5rem;
     margin-left: 1rem;
@@ -578,10 +578,10 @@ header .buttons button{
    font-size: 55%;
 
  }
-  header{
+  .header{
     padding: 1.5rem 2rem;
   }
- header .logo img{
+ .header .logo img{
   height: 5rem;
  }
   section{
@@ -597,7 +597,7 @@ header .buttons button{
   #menu-btn{
     display:inline-block;
   }
- header .navbar{
+ .header .navbar{
    position: absolute;
    top: 95%;
    background-color: #fff;
@@ -607,12 +607,12 @@ header .buttons button{
    right: -100%;
  }
 
- header .navbar.active{
+ .header .navbar.active{
   right: 3rem;
 
  }
 
- header .navbar a{
+ .header .navbar a{
   color: var(--black-color);
   display: block;
   margin: 1.5rem;
