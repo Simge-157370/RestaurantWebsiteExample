@@ -14,19 +14,19 @@
         <img src="images/RestaurantLogo.png" alt="logo">
       </a>
       <nav class="navbar">
-        <a href="#" class="active">Home</a>
-        <a href="#">About</a>
-        <a href="#">Menu</a>
-        <a href="#">Products</a>
-        <a href="#">Review</a>
-        <a href="#">Contact</a>
-        <a href="#">Blogs</a>
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="menu.html">Menu</a>
+        <a href="products.html">Products</a>
+        <a href="review.html">Review</a>
+        <a href="contact.html">Contact</a>
+        <a href="blog.html">Blog</a>
       </nav>
       <div class="buttons">
-        <button>
+        <button id="search-btn"> 
           <i class="fa-brands fa-searchengin"></i>
         </button>
-        <button>
+        <button id="cart-btn">
           <i class="fa-solid fa-cart-plus"></i>
         </button>
         <button id="menu-btn">
@@ -37,10 +37,20 @@
         <input type="text" class="search-input" id="search-box" placeholder="search here"/>
         <i class="fas fa-search"></i>
       </div>
+      <div class="cart-items-container">
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/home.jpg" alt="menu">
+          <div class="content">
+            <h3>cart item 01</h3>
+            <div class="price">$15.99/-</div>
+          </div>
+        </div>
+      </div>
     </header>
     <!--Header section end  -->
     <!-- #Home section start-->
-    <section class="home">
+    <section class="home" id="home">
       <div class="content">
       <h3>EXPRESS HOME DELIVERY</h3>
       <P>Buraya paragraf ekleyeceğim</P>
@@ -50,12 +60,12 @@
 
     <!-- #Home section end-->
     <!--Menü section start-->
-    <section class="menu">
+    <section class="menu" id="menu">
       <h1 class="heading">Our <span>Menu</span></h1>
     <div class="box-container">
       <div class="box">
         <div class="box-head">
-          <img src="images/home.jpg" alt="menu">
+          <img src="images/menu1.jpg" alt="menu">
           <span class="menu-category">PIZZA</span>
           <h3>6 Mini Pizzas</h3>
           <div class="price">$100
@@ -69,7 +79,7 @@
 
       <div class="box">
         <div class="box-head">
-          <img src="images/home.jpg" alt="menu">
+          <img src="images/menu2.jpg" alt="menu">
           <span class="menu-category">PIZZA</span>
           <h3>6 Mini Pizzas</h3>
           <div class="price">$106
@@ -83,7 +93,7 @@
 
       <div class="box">
         <div class="box-head">
-          <img src="images/home.jpg" alt="menu">
+          <img src="images/menu3.jpg" alt="menu">
           <span class="menu-category">PIZZA</span>
           <h3>6 Mini Pizzas</h3>
           <div class="price">$102
@@ -96,7 +106,7 @@
 
       <div class="box">
         <div class="box-head">
-          <img src="images/home.jpg" alt="menu">
+          <img src="images/menu4.jpg" alt="menu">
           <span class="menu-category">PIZZA</span>
           <h3>6 Mini Pizzas</h3>
           <div class="price">$108.99
@@ -112,8 +122,8 @@
     </section>
     <!--Menü section end-->
     <!--Product section start-->
-    <section class="products">
-      <h1 class="heading">Our Products</h1>
+    <section class="products" id="products">
+      <h1 class="heading">Our <span>Products</span></h1>
       <div class="box-container">
         <div class="box">
           <div class="box-head">
@@ -121,7 +131,7 @@
              <a href="#" class="name">Bacon Burger</a>
           </div>
           <div class="image">
-            <img src="images/home.jpg" alt="">
+            <img src="images/menu1.jpg" alt="">
           </div>
           <div class="box-bottom">
             <div class="info">
@@ -143,7 +153,7 @@
            <a href="#" class="name">Bacon Burger</a>
         </div>
         <div class="image">
-          <img src="images/home.jpg" alt="">
+          <img src="images/menu2.jpg" alt="">
         </div>
         <div class="box-bottom">
           <div class="info">
@@ -165,7 +175,7 @@
            <a href="#" class="name">Bacon Burger</a>
         </div>
         <div class="image">
-          <img src="images/home.jpg" alt="">
+          <img src="images/menu3.jpg" alt="">
         </div>
         <div class="box-bottom">
           <div class="info">
@@ -186,11 +196,11 @@
     </section>
     <!--Product section end-->
     <!--About section start-->
-    <section class="about">
-      <h1 class="heading">About Us</h1>
+    <section class="about" id="about">
+      <h1 class="heading"><span>About</span> Us</h1>
       <div class="row">
         <div class="image">
-          <img src="images/home.jpg"  alt="aboutUsPicture">
+          <img src="images/menu1.jpg"  alt="aboutUsPicture">
         </div>
         <div class="content">
            <h3>What Is In This Delicious Burgers?</h3>
@@ -202,15 +212,15 @@
     </section>
     <!--About section end-->
     <!--Review section start-->
-    <section class="review">
-      <h1 class="heading">Customer's Reviews</h1>
+    <section class="review" id="review">
+      <h1 class="heading">Customer's <span>Reviews</span></h1>
        <div class="box-container">
         <div class="box">
-          <img src="images/home.jpg" alt="quote">
+          <img src="images/thinking.jpg" alt="quote">
           <p>
             Kullanıcı yorumu yazacaksın buraya.
           </p>
-          <img src="images/home.jpg" alt="avatar" class="user">
+          <img src="images/person1.jpg" alt="avatar" class="user">
           <h3>Jennifer Becker</h3>
           <div class="stars">
             <i class="fas fa-star"></i>
@@ -222,12 +232,12 @@
         </div>
          
         <div class="box">
-          <img src="images/home.jpg" alt="quote">
+          <img src="images/thinking.jpg" alt="quote">
           <p>
             Kullanıcı yorumu yazacaksın buraya.
           </p>
-          <img src="images/home.jpg" alt="avatar" class="user">
-          <h3>Jennifer Becker</h3>
+          <img src="images/person2.jpg" alt="avatar" class="user">
+          <h3>Kaen Prefy</h3>
           <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -238,12 +248,12 @@
         </div>
 
         <div class="box">
-          <img src="images/home.jpg" alt="quote">
+          <img src="images/thinking.jpg" alt="quote">
           <p>
             Kullanıcı yorumu yazacaksın buraya.
           </p>
-          <img src="images/home.jpg" alt="avatar" class="user">
-          <h3>Jennifer Becker</h3>
+          <img src="images/person3.jpg" alt="avatar" class="user">
+          <h3>Justin Loren</h3>
           <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -260,8 +270,8 @@
     <!--Review section end-->
 
     <!--contact section start-->
-     <section class="contact">
-      <h1 class="heading">Contact Us</h1>
+     <section class="contact" id="contact">
+      <h1 class="heading"><span>Contact</span> Us</h1>
       <div class="row">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48126.00543012342!2d29.02233205!3d41.0717175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab63f6f8193f1%3A0x36c864a929a1018c!2zQmXFn2lrdGHFny_EsHN0YW5idWw!5e0!3m2!1sen!2str!4v1697200370354!5m2!1sen!2str" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <form>
@@ -283,22 +293,18 @@
         <input type="submit" class="btn" value="contact now">
         </form>
       </div>
-       
-
-
-
       
      </section>
 
     <!--contact section end-->
 
     <!--blog section start-->
-     <section class="blog">
-      <h1 class="heading">Our Blog</h1>
+     <section class="blog" id="blog">
+      <h1 class="heading">Our <span>Blog</span></h1>
        <div class="box-container">
          <div class="box">
           <div class="image">
-          <img src="images/home.jpg" alt="blog">
+          <img src="images/menu3.jpg" alt="blog">
        </div>
        <div class="content">
         <a href="#" class="title">how to make burgers?</a>
@@ -311,7 +317,7 @@
 
       <div class="box">
         <div class="image">
-        <img src="images/home.jpg" alt="blog">
+        <img src="images/menu1.jpg" alt="blog">
      </div>
      <div class="content">
       <a href="#" class="title">how to make burgers</a>
@@ -324,7 +330,7 @@
 
     <div class="box">
       <div class="image">
-      <img src="images/home.jpg" alt="blog">
+      <img src="images/menu4.jpg" alt="blog">
    </div>
    <div class="content">
     <a href="#" class="title">how to make burgers</a>
@@ -339,7 +345,7 @@
     <!--blog section end-->
 
     <!--footer section start-->
-     <section class="footer">
+     <section class="footer" id="footer">
       <div class="search">
         <input type="text" class="search-input" placeholder="Search"/>
         <button class="btn btn-primary" >search</button>
@@ -353,7 +359,7 @@
         <a href="#" class="fab fa-pinterest"></a>
       </div>
       <div class="links">
-        <a href="#" class="active">Home</a>
+        <a href="#">Home</a>
         <a href="#">About</a>
         <a href="#">Menu</a>
         <a href="#">Products</a>
@@ -368,5 +374,7 @@
     </section>
     
     <!--footer section end-->
+
+    <script src="Js/script.js"></script> 
   </body>
 </html>
