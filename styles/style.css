@@ -143,7 +143,11 @@ text-decoration:none;
     color: var(--black-color);
     border-bottom: 0.1rem solid transparent;
 }
-.header .navbar .active,
+.header .navbar .active{
+  border-color: var(--main-color);
+  padding-bottom: 0.5rem;
+}
+
 .header .navbar a:hover{
     border-color: var(--main-color);
     padding-bottom: 0.5rem;
