@@ -53,8 +53,8 @@ text-decoration:none;
     padding: 2rem 3.75rem;
     border-radius: 30rem;
     font-size: 1rem;
-    color:var(--black-color);
-    background-color:#588157;
+    color:#fff;
+    background-color:var(--black-color);
     cursor: pointer;
 }
 .title{
@@ -153,6 +153,13 @@ text-decoration:none;
     font-size: 1.5rem;
     margin-left: 1rem;
     background-color: transparent;
+}
+.header .cart-items-container .cart-item .content a {
+  width: 100%;
+  text-align: center;
+  border-radius: 3rem;
+  
+  
 }
 #menu-btn{
   display: none;
@@ -324,7 +331,7 @@ text-decoration:none;
   }
   .products .box-container .box-bottom .product-btn a i{
     font-size: 1rem;
-    color: var(#588157);
+    color: var(--black-color);
   }
   /*!products end*/
 
@@ -345,7 +352,7 @@ text-decoration:none;
    }
    .about .row .content p{
     font-size: 1.6rem;
-    color: #588157;
+    color: #fff;
     padding: 1rem 0;
     line-height: 1.8rem;
    }
@@ -562,10 +569,6 @@ text-decoration:none;
   opacity: 0.7rem;
  }
 
- .footer .links a.active{
-  background-color: var(--black-color);
-
- }
  .footer .credit{
   font-size: 1rem;
   color: #fff;

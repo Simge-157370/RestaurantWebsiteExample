@@ -8,23 +8,23 @@
   </head>
 <link rel="stylesheet" href="styles/style.css">
   <body>
-    <!--!Header section start-->
-    <header class="header">
+     <!--!Header section start-->
+     <header class="header">
       <a href="#" class="logo">
         <img src="images/RestaurantLogo.png" alt="logo">
       </a>
       <nav class="navbar">
-        <a href="index.html" >Home</a>
+        <a href="index.html" class="active">Home</a>
         <a href="about.html">About</a>
         <a href="menu.html">Menu</a>
-        <a href="products.html"class="active">Products</a>
+        <a href="products.html">Products</a>
         <a href="review.html">Review</a>
         <a href="contact.html">Contact</a>
         <a href="blog.html">Blog</a>
       </nav>
       <div class="buttons">
         <button id="search-btn"> 
-          <i class="fa-brands fa-searchengin"></i>
+          <i class="fas fa-search"></i>
         </button>
         <button id="cart-btn">
           <i class="fa-solid fa-cart-plus"></i>
@@ -40,54 +40,32 @@
       <div class="cart-items-container">
         <div class="cart-item">
           <i class="fas fa-times"></i>
-          <img src="images/home.jpg" alt="menu">
+          <img src="images/menu1.jpg" alt="menu">
           <div class="content">
             <h3>cart item 01</h3>
             <div class="price">$15.99/-</div>
+            <a href="#" class="btn">Checkout Now</a>
           </div>
         </div>
       </div>
     </header>
     <!--Header section end  -->
-    
-     <!--Product section start-->
-     <section class="products" id="products">
-        <h1 class="heading">Our Products</h1>
-        <div class="box-container">
-          <div class="box">
-            <div class="box-head">
-              <span class="title">MINI BURGER</span>
-               <a href="#" class="name">Bacon Burger</a>
-            </div>
-            <div class="image">
-              <img src="images/home.jpg" alt="">
-            </div>
-            <div class="box-bottom">
-              <div class="info">
-                <b class="price">$6.00</b>
-                 <span class="amount">100gr/300cal</span>
-              </div>
-              <div class="product-btn">
-                <a href="#">
-                  <i class="fas fa-plus"></i>
-                </a>
-              </div>
-            </div>
-    
-          </div>
-  
+    <!--Product section start-->
+    <section class="products" id="products">
+      <h1 class="heading">Our <span>Products</span></h1>
+      <div class="box-container">
         <div class="box">
           <div class="box-head">
-            <span class="title">MINI BURGER</span>
-             <a href="#" class="name">Bacon Burger</a>
+            <span class="title">PIZZA</span>
+             <a href="#" class="name">Margarita Pizza</a>
           </div>
           <div class="image">
-            <img src="images/home.jpg" alt="">
+            <img src="images/menu1.jpg" alt="">
           </div>
           <div class="box-bottom">
             <div class="info">
               <b class="price">$6.00</b>
-               <span class="amount">100gr/300cal</span>
+               <span class="amount">100gr/450cal</span>
             </div>
             <div class="product-btn">
               <a href="#">
@@ -97,34 +75,55 @@
           </div>
   
         </div>
-  
-        <div class="box">
-          <div class="box-head">
-            <span class="title">MINI BURGER</span>
-             <a href="#" class="name">Bacon Burger</a>
-          </div>
-          <div class="image">
-            <img src="images/home.jpg" alt="">
-          </div>
-          <div class="box-bottom">
-            <div class="info">
-              <b class="price">$6.00</b>
-               <span class="amount">100gr/300cal</span>
-            </div>
-            <div class="product-btn">
-              <a href="#">
-                <i class="fas fa-plus"></i>
-              </a>
-            </div>
-          </div>
-  
+
+      <div class="box">
+        <div class="box-head">
+          <span class="title">BURGER</span>
+           <a href="#" class="name">Bacon Burger</a>
         </div>
+        <div class="image">
+          <img src="images/menu2.jpg" alt="">
+        </div>
+        <div class="box-bottom">
+          <div class="info">
+            <b class="price">$6.00</b>
+             <span class="amount">100gr/550cal</span>
+          </div>
+          <div class="product-btn">
+            <a href="#">
+              <i class="fas fa-plus"></i>
+            </a>
+          </div>
+        </div>
+
       </div>
-  
-  
-      </section>
-      <!--Product section end-->
-  
+
+      <div class="box">
+        <div class="box-head">
+          <span class="title">PASTA</span>
+           <a href="#" class="name">Alfredo Pasta</a>
+        </div>
+        <div class="image">
+          <img src="images/menu3.jpg" alt="">
+        </div>
+        <div class="box-bottom">
+          <div class="info">
+            <b class="price">$6.00</b>
+             <span class="amount">100gr/400cal</span>
+          </div>
+          <div class="product-btn">
+            <a href="#">
+              <i class="fas fa-plus"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    </section>
+    <!--Product section end-->
     <!--footer section start-->
      <section class="footer" id="footer">
       <div class="search">
